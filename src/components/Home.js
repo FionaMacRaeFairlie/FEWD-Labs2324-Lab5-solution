@@ -1,5 +1,7 @@
 import React from "react";
 import Search from "./Search";
+import 'leaflet/dist/leaflet.css';
+import Map from "./Map"
 import { items } from "../data/data";
 
 const Home = () => {
@@ -34,7 +36,7 @@ const Home = () => {
         </div>
         <div className="col">
           <h3>Where we are ...</h3>
-          <p> Map will be displayed here </p>
+          <Map />
         </div>
         <div className="col">
           <h3>Explore our menu ...</h3>
